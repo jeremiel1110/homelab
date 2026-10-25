@@ -1,0 +1,27 @@
+# Secrets and credentials
+.env
+*.env
+secrets*.yaml
+*.key
+*.pem
+*.crt
+
+# Kubernetes access
+kubeconfig
+*.kubeconfig
+kubeconfig.yaml
+
+# VPN configs
+wg*.conf
+*.wireguard
+
+# Terraform / OpenTofu (if you use it later)
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Backups and OS junk
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
