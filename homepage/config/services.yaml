@@ -1,0 +1,211 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/services/
+
+- infrastructure:
+    - Proxmox:
+        icon: proxmox.svg
+        href: https://192.168.1.200:8006/
+        ping: 192.168.1.200
+        description: Manage virtual machines and LXC containers
+
+    - OPNsense:
+        icon: opnsense.svg
+        href: https://192.168.10.1/
+        ping: 192.168.10.1
+        description: Manage firewall, routing, VPN and network services
+
+    - AdGuard Home:
+        icon: adguard-home.svg
+        href: http://192.168.10.2/
+        siteMonitor: http://192.168.10.2/
+        description: Manage local DNS and network-wide ad blocking
+
+    - Nginx Proxy Manager:
+        icon: nginx-proxy-manager.svg
+        href: http://192.168.10.3:81/
+        siteMonitor: http://192.168.10.3:81/
+        description: Manage reverse proxies, domains and HTTPS certificates
+
+    - Vaultwarden:
+        icon: vaultwarden.svg
+        href: https://192.168.10.30:8000/
+        siteMonitor: https://192.168.10.30:8000/
+        description: Store and manage passwords securely
+
+
+    - Monitoring:
+        - Portainer - Docker LXC:
+            icon: portainer.svg
+            href: http://192.168.10.15:9000/
+            siteMonitor: http://192.168.10.15:9000/
+            description: Manage containers running on the Docker LXC
+
+        - Portainer - MielCast:
+            icon: portainer.svg
+            href: http://192.168.10.20:9000/
+            siteMonitor: http://192.168.10.20:9000/
+            description: Manage containers running on MielCast
+
+        - Beszel:
+            icon: beszel.svg
+            href: http://192.168.10.20:8090/
+            siteMonitor: http://192.168.10.20:8090/
+            description: Monitor MielCast resources and system health
+
+        - Uptime Kuma:
+            icon: uptime-kuma.svg
+            href: http://192.168.10.15:3001/
+            siteMonitor: http://192.168.10.15:3001/
+            description: Uptime Kuma is an easy-to-use self-hosted monitoring tool
+
+
+- Storage:
+    - TrueNAS:
+        icon: truenas.svg
+        href: http://192.168.10.10/
+        ping: 192.168.10.10
+        description: Manage storage, network shares and backups
+
+    - File Browser:
+        icon: filebrowser.svg
+        href: http://192.168.10.10:30051/
+        siteMonitor: http://192.168.10.10:30051/
+        description: Browse and manage files from the web
+
+    - RomM:
+        icon: romm.svg
+        href: http://192.168.10.10:30061/
+        ping: http://192.168.10.10:30061/
+        description: A beautiful, powerful, self-hosted ROM manager and player
+
+    - Immich:
+        icon: immich.svg
+        href: http://192.168.10.10:30041/
+        siteMonitor: http://192.168.10.10:30041/
+        description: Back up and manage photos and videos
+
+    - Scrutiny:
+        icon: scrutiny.svg
+        href: http://192.168.10.15:8080/
+        siteMonitor: http://192.168.10.15:8080/
+        description: Monitor drive health and SMART data
+
+
+    - Downloader:
+        - qBittorrent:
+            icon: qbittorrent.svg
+            href: http://192.168.10.20:8081/
+            siteMonitor: http://192.168.10.20:8081/
+            description: Manage BitTorrent downloads
+
+        - slskd:
+            icon: slskd.svg
+            href: http://192.168.10.10:30336/
+            siteMonitor: http://192.168.10.10:30336/
+            description: Search and download music through Soulseek
+
+        - BeeLyrics:
+            href: http://192.168.10.16:5000/
+            siteMonitor: http://192.168.10.16:5000/
+            description: Find and download synchronized lyrics
+
+
+- Media:
+    - Jellyfin:
+        icon: jellyfin.svg
+        href: http://192.168.10.20:8096/
+        siteMonitor: http://192.168.10.20:8096/
+        description: Stream movies, TV series, music and other media
+
+    - Jellystat:
+        icon: jellystat.svg
+        href: http://192.168.10.20:3000/
+        siteMonitor: http://192.168.10.20:3000/
+        description: Jellystat is a free and open source Statistics App for Jellyfin
+
+    - Seerr:
+        icon: seerr.svg
+        href: http://192.168.10.20:5055/
+        siteMonitor: http://192.168.10.20:5055/
+        description: Request and manage movies and TV series
+
+    - Radarr:
+        icon: radarr.svg
+        href: http://192.168.10.20:7878/
+        siteMonitor: http://192.168.10.20:7878/
+        description: Find, download and organize movies automatically
+
+    - Sonarr:
+        icon: sonarr.svg
+        href: http://192.168.10.20:8989/
+        siteMonitor: http://192.168.10.20:8989/
+        description: Find, download and organize TV series automatically
+
+    - Bazarr:
+        icon: bazarr.svg
+        href: http://192.168.10.20:6767/
+        siteMonitor: http://192.168.10.20:6767/
+        description: Find and manage subtitles automatically
+
+    - Prowlarr:
+        icon: prowlarr.svg
+        href: http://192.168.10.20:9696/
+        siteMonitor: http://192.168.10.20:9696/
+        description: Manage indexers for all media applications
+
+    - Maintainerr:
+        icon: maintainerr.svg
+        href: http://192.168.10.20:6246/
+        siteMonitor: http://192.168.10.20:6246/
+        description: A library maintenance tool for Jellyfin
+
+
+- Music:
+    - Navidrome:
+        icon: navidrome.svg
+        href: http://192.168.10.10:30043/
+        siteMonitor: http://192.168.10.10:30043/
+        description: Stream and manage the music library
+
+    - Lidarr:
+        icon: lidarr.svg
+        href: http://192.168.10.20:8686/
+        siteMonitor: http://192.168.10.20:8686/
+        description: Find, download and organize music automatically
+
+    - MusicBrainz Picard:
+        icon: musicbrainz-picard.svg
+        href: http://192.168.10.10:5800/
+        siteMonitor: http://192.168.10.10:5800/
+        description: Identify, tag and organize music files
+
+
+    - Notes:
+        - Trilium - Jeremiel:
+            icon: trilium.svg
+            href: http://192.168.10.31:8080/
+            siteMonitor: http://192.168.10.31:8080/
+            description: Manage Jeremiel's notes and knowledge base
+
+        - Trilium - Lenael:
+            icon: trilium.svg
+            href: http://192.168.10.32:8080/
+            siteMonitor: http://192.168.10.32:8080/
+            description: Manage Lenael's notes and knowledge base
+
+        - code-server:
+            icon: visual-studio-code.svg
+            href: http://192.168.10.15:8443/
+            siteMonitor: http://192.168.10.15:8443/
+            description: Run VS Code on any machine anywhere and access it in the browser.
+
+        - Homelab Hub:
+            # icon: http://192.168.10.15:8000/static/favicon.svg
+            href: http://192.168.10.15:8000
+            siteMonitor: http://192.168.10.15:8000
+            description: A self-hosted web application for managing and visualizing home lab infrastructure
+
+
+# TO ADD : Kavita, Livrarr
+# TO ADD ALSO / UPTIMEKUMA
