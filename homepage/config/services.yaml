@@ -79,12 +79,6 @@
         siteMonitor: http://192.168.10.10:30051/
         description: Browse and manage files from the web
 
-    - RomM:
-        icon: romm.svg
-        href: http://192.168.10.10:30061/
-        ping: http://192.168.10.10:30061/
-        description: A beautiful, powerful, self-hosted ROM manager and player
-
     - Immich:
         icon: immich.svg
         href: http://192.168.10.10:30041/
