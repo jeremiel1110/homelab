@@ -161,13 +161,6 @@
         siteMonitor: http://192.168.10.20:6246/
         description: A library maintenance tool for Jellyfin
 
-    - Other:
-        - wger:
-            icon: wger.svg
-            href: http://192.168.10.10:30170/
-            siteMonitor: http://192.168.10.10:30170/
-            description: Manage workouts, nutrition and exercises
-
 
 - Music:
     - Navidrome:
@@ -187,6 +180,13 @@
         href: http://192.168.10.10:5800/
         siteMonitor: http://192.168.10.10:5800/
         description: Identify, tag and organize music files
+
+    - Other:
+        - wger:
+            icon: wger.svg
+            href: http://192.168.10.10:30170/
+            siteMonitor: http://192.168.10.10:30170/
+            description: Manage workouts, nutrition and exercises
 
 
     - Notes:
