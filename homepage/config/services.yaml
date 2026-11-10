@@ -67,6 +67,12 @@
         ping: 192.168.10.10
         description: Manage storage, network shares and backups
 
+    - Nextcloud:
+        icon: nextcloud.svg
+        href: http://192.168.10.10:30027/
+        siteMonitor: http://192.168.10.10:30027/
+        description: Store and manage files, contacts, calendars and more
+
     - File Browser:
         icon: filebrowser.svg
         href: http://192.168.10.10:30051/
