@@ -106,6 +106,14 @@
             description: Search and download music through Soulseek
 
 
+    - Other:
+        - wger:
+            icon: wger.svg
+            href: http://192.168.10.10:30170/
+            siteMonitor: http://192.168.10.10:30170/
+            description: Manage workouts, nutrition and exercises
+
+
 - Media:
     - Jellyfin:
         icon: jellyfin.svg
