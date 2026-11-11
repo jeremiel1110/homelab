@@ -73,12 +73,6 @@
         siteMonitor: http://192.168.10.10:30027/
         description: Store and manage files, contacts, calendars and more
 
-    - File Browser:
-        icon: filebrowser.svg
-        href: http://192.168.10.10:30051/
-        siteMonitor: http://192.168.10.10:30051/
-        description: Browse and manage files from the web
-
     - Immich:
         icon: immich.svg
         href: http://192.168.10.10:30041/
