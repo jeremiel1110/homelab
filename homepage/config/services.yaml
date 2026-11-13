@@ -196,6 +196,12 @@
             siteMonitor: http://192.168.10.15:8443/
             description: Run VS Code on any machine anywhere and access it in the browser.
 
+        - Forgejo:
+            icon: forgejo.svg
+            href: http://192.168.10.33:3000/
+            siteMonitor: http://192.168.10.33:3000/
+            description: Forgejo is a self-hosted Git service
+
         - Homelab Hub:
             # icon: http://192.168.10.15:8000/static/favicon.svg
             href: http://192.168.10.15:8000
