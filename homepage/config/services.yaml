@@ -41,6 +41,12 @@
             siteMonitor: http://192.168.10.15:9000/
             description: Manage containers running on the Docker LXC
 
+        - Arcane - Docker LXC:
+            icon: arcane.svg
+            href: http://192.168.10.15:3552/
+            siteMonitor: http://192.168.10.15:3552/
+            description: Monitor Docker LXC resources and system health
+
         - Portainer - MielCast:
             icon: portainer.svg
             href: http://192.168.10.20:9000/
